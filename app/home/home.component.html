@@ -1,0 +1,9 @@
+<ActionBar title="Groceries"></ActionBar>
+
+<GridLayout>
+    <RadCartesianChart>
+        <CategoricalAxis tkCartesianHorizontalAxis></CategoricalAxis>
+        <LinearAxis tkCartesianVerticalAxis></LinearAxis>
+        <BarSeries tkCartesianSeries [items]="favoriteFruits" categoryProperty="type" valueProperty="count"></BarSeries>
+    </RadCartesianChart>
+</GridLayout>
